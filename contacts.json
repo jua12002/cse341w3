@@ -1,0 +1,22 @@
+{
+    "contact": {
+      "firstName": "Emily",
+      "lastName": "Saj",
+      "email": "emilysaj@gmail.com",
+      "favoriteColor": "Green",
+      "birthday": "03/11/05"
+    },
+    "contact2": {
+      "firstName": "Elaissa",
+      "lastName": "Saj",
+      "email": "elaissasaj@gmail.com",
+      "favoriteColor": "Pink",
+      "birthday": "09/07/03"
+    },
+    "contact3": {
+      "firstName": "Ehrlich",
+      "lastName": "Saj",
+      "email": "ehrlichsaj@gmail.com",
+      "favoriteColor": "Blue",
+      "birthday": "06/29/06"
+  }
