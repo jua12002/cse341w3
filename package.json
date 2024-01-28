@@ -4,8 +4,8 @@
   "description": "Contact Names",
   "main": "server.js",
   "scripts": {
-    "test": "Test",
-    "start": "nodemon server.js",
+    "test": "",
+    "start": "server.js",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
@@ -13,12 +13,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-
   "dependencies": {
     "body-parser": "^1.20.2",
-    "dotenv": "^16.4.1",   
+    "dotenv": "^16.4.1",
     "express": "^4.18.2",
-    "mongodb": "^6.3.0"    
+    "mongodb": "^6.3.0"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
@@ -27,12 +26,10 @@
     "nodemon": "^3.0.3",
     "prettier": "^3.2.4"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jua12002/cse341w3.git"
   },
-  
   "bugs": {
     "url": "https://github.com/jua12002/cse341w3/issues"
   },
