@@ -1,10 +1,10 @@
 {
   "name": "cse341w3",
   "version": "1.0.0",
-  "description": "",
+  "description": "Contact Names",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "Test",
     "start": "nodemon server.js",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
@@ -13,6 +13,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+
   "dependencies": {
     "body-parser": "^1.20.2",
     "dotenv": "^16.4.1",   
@@ -25,5 +26,15 @@
     "eslint-plugin-prettier": "^5.1.3",
     "nodemon": "^3.0.3",
     "prettier": "^3.2.4"
-  }
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jua12002/cse341w3.git"
+  },
+  
+  "bugs": {
+    "url": "https://github.com/jua12002/cse341w3/issues"
+  },
+  "homepage": "https://github.com/jua12002/cse341w3#readme"
 }
