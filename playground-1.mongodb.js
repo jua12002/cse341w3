@@ -19,6 +19,26 @@ db.getCollection('contacts').insertMany([
   { firstName: 'Bear', lastName: 'Saj',   email: '1@gmail.com', favoriteColor: 'Red', date: new Date('2014-03-23') }
 ]);
 
+
+db.getCollection('contacts').insertOne([
+  { firstName: 'Buddy', lastName: 'Saj',   email: 'B@gmail.com', favoriteColor: 'Red', date: new Date('2014-03-23') }
+]);
+
+
+db.getCollection('contacts').getAll([
+  {getAll}
+]); 
+
+router.get('/:id', contactsController.getSingle);
+
+router.post('/', contactsController.createContact);
+
+router.put('/:id', contactsController.updateContact);
+
+router.delete('/:id', contactsController.deleteContact);
+
+module.exports = router;
+
 // Run a find command to view items sold on April 4th, 2014.
 const salesOnApril4th = db
   .getCollection('contacts')
